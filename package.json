@@ -1,0 +1,31 @@
+{
+    "name": "vscode-ext-bug",
+    "displayName": "vscode-ext-bug",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "slavik-lvovsky",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.bug"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.bug",
+                "title": "Test Code Gen"
+            }
+        ]
+    },
+    "dependencies": {
+        "yeoman-environment": "2.10.3"
+    },
+    "devDependencies": {
+        "@types/yeoman-environment": "2.10.2"
+    }
+}
